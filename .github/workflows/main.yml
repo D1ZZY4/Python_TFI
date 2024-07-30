@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Ganti dengan versi Python yang kamu gunakan
+        python-version: '3.8'  # Ganti dengan versi Python yang Anda gunakan
 
     - name: Install dependencies
       run: |
@@ -27,7 +27,7 @@ jobs:
 
     - name: Run script
       run: |
-        python script-bot_TFI.py  # Ganti dengan nama file Python kamu
+        python script-bot_TFI.py  # Ganti dengan nama file Python Anda
 
     - name: Debug environment
       run: |
