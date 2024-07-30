@@ -1,6 +1,0 @@
-my-repo/
-├── .github/
-│   └── workflows/
-│       └── python-app.yml
-├── script-bot_TFI.py
-├── requirements.txt
