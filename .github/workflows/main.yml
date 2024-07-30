@@ -3,7 +3,7 @@ name: Run Python Script
 on:
   push:
     branches:
-      - Python_TFI  # Pastikan nama branch sesuai
+      - main  # Pastikan nama branch sesuai
   schedule:
     - cron: '0 * * * *'  # Menjalankan setiap jam pada menit ke-0
 
