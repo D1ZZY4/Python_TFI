@@ -3,9 +3,9 @@ name: Run Python Script
 on:
   push:
     branches:
-      - Python_TFI  # Pastikan nama branch yang sesuai
+      - Python_TFI  # Pastikan nama branch sesuai
   schedule:
-    - cron: '0 * * * *'  # Menjalankan setiap jam pada menit ke-0 (sesuaikan jika perlu)
+    - cron: '0 * * * *'  # Menjalankan setiap jam pada menit ke-0
 
 jobs:
   build:
@@ -28,3 +28,9 @@ jobs:
     - name: Run script
       run: |
         python script-bot_TFI.py  # Ganti dengan nama file Python kamu
+
+    - name: Debug environment
+      run: |
+        python --version
+        pip freeze
+        ls -al
